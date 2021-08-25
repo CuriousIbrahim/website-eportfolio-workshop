@@ -43,3 +43,57 @@ h1 {
   font-size: 75px;
   color: white;
 }
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#bio > .bio-container {
+  display: grid;
+
+  grid-template-columns: 1fr 2fr;
+}
+
+.profile-image {
+  height: 300px;
+}
+
+.bio-paragraph {
+  font-size: 20px;
+}
+
+.section {
+  padding: 0 400px;
+}
+
+/* education */
+
+.education-entry > .first-row {
+  display: flex;
+  align-items: center;
+}
+
+.school-name {
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.expected-grad-date {
+  font-size: 30px;
+}
+
+/* experience */
+
+.experience-entry > .row {
+  display: flex;
+  align-items: center;
+}
+
+/*  hobbies and interests */
+
+#hobbies-and-interests > ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
