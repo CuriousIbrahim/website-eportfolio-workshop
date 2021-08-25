@@ -43,6 +43,8 @@ Now let's look at the `head` tag. The `head` tag defines everything that is not 
 
 ### Header Section
 
+Let's create our header - or navigation bar. Whatever sounds better. Paste the following inside the `header` tag:
+
 ```html
 <header>
   <ul>
@@ -55,6 +57,12 @@ Now let's look at the `head` tag. The `head` tag defines everything that is not 
   </ul>
 </header>
 ```
+
+Let's understand it
+
+The `header` tag defines out header. Not much to say here. It's pretty self explanitory.
+
+Let's look at the `ul` tag. ul stands unordered list, so this allows us to make a bullet point list. Inside the `ul` tag is several `li` tags. li stands for list item, it's the actual bullet point. Inside of each `li` tag is an `a` tag. An `tag` allows us to make a link which can either take us to another page or a section on the page (more on this later).
 
 ### Home Section
 
