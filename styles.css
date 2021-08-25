@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+header > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+header > ul > li {
+  font-size: 25px;
+}
+
+#home {
+  background-color: #7b7b7b;
+  height: 250px;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home > .home-container > div {
+  color: #dbdbdb;
+  font: 35px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 75px;
+  color: white;
+}
