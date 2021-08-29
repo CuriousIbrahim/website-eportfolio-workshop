@@ -3,13 +3,15 @@ body {
   padding: 0;
 }
 
-header {
+/* navigation */
+
+nav {
   background-color: black;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 28px;
 }
 
-header > ul {
+nav > ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -18,31 +20,91 @@ header > ul {
   color: white;
 }
 
-header > ul > li {
+nav > ul > li {
   font-size: 25px;
+  padding: 5px;
 }
+
+nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-me-nav {
+  background-color: #4ebfff;
+  border-radius: 10px;
+}
+
+/* home */
 
 #home {
   background-color: #7b7b7b;
-  height: 250px;
-}
-
-#home {
+  height: 700px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-#home > .home-container > div {
-  color: #dbdbdb;
-  font: 35px;
+.subtitle {
+  color: #cdcccc;
+  font-size: 40px;
 }
 
-h1 {
+.main {
+  color: #f9f9f9;
+  font-size: 80px;
+  padding: 0;
   margin: 0;
-  font-size: 75px;
-  color: white;
 }
+
+.i-am-name {
+  text-align: center;
+}
+
+.i-am-a {
+  text-align: center;
+}
+
+.resume-btn {
+  color: white;
+  padding: 30px 20px;
+  background-color: #4ebfff;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: Palanquin Dark;
+  text-align: center;
+}
+
+/* sections after */
+
+.section {
+  margin: 0 90px;
+  /* text-align: center; */
+}
+
+/* section headers */
+
+.section-header-wrapper {
+  text-align: center;
+}
+
+.section-header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0.35538em;
+  color: black;
+  border: 8px solid #000000;
+  background: rgba(107, 106, 106, 0.31);
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* bio */
 
 h2 {
   text-align: center;
@@ -63,15 +125,12 @@ h2 {
   font-size: 20px;
 }
 
-.section {
-  padding: 0 400px;
-}
-
 /* education */
 
 .education-entry > .first-row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .school-name {
@@ -88,6 +147,7 @@ h2 {
 .experience-entry > .row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 /*  hobbies and interests */

@@ -1,121 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-
-<body>
-  <header>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#bio">Bio</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#extracurriculars">Extracurriculars</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#hobbies-and-interests">Hobbies-and-Interests</a></li>
-    </ul>
-  </header>
-
-  <div id="home">
-    <div class="home-container">
-      <div>Hey! This is</div>
-      <h1>John Doe</h1>
-    </div>
-  </div>
-
-  <div id="bio" class="section">
-    <h2>A Bit About Me</h2>
-    <div class="bio-container">
-      <img class="profile-image" src="./images/80d364e09d31fcba8af274926d4332ff.jpg" alt="">
-      <p class="bio-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper ut ligula
-        sollicitudin placerat. In
-        molestie condimentum lorem aliquam tempus. Etiam sit amet accumsan est, id lobortis turpis. Integer aliquet mi
-        in consequat convallis. Aenean at risus in tortor dapibus tincidunt at in mauris. Pellentesque ut ipsum non
-        metus pretium volutpat in a quam. Ut sit amet risus dui. Nulla sodales vulputate lacus at vestibulum. Proin sit
-        amet massa ut magna maximus auctor nec id urna. Sed ut finibus lectus. Nullam in lorem at enim elementum auctor.
-      </p>
-    </div>
-  </div>
-
-  <div id="education" class="section">
-    <h2>What I'm Studying</h2>
-    <div class="education-entry">
-      <div class="first-row">
-        <h3 class="school-name">
-          School Name
-        </h3>
-        <h4 class="expected-grad-date">
-          2077
-        </h4>
-      </div>
+  <body>
+    <nav>
       <ul>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, perspiciatis obcaecati delectus itaque
-          enim, sunt eos unde ex quos sit commodi, iste dignissimos autem consequuntur aut corporis quidem qui modi?
-        </li>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sed quas repellat facere impedit facilis
-          nobis ducimus assumenda voluptatem, pariatur ab atque aperiam nam aliquam dolorum sint. Ipsum, deleniti
-          cumque?</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#extracurriculars">Extracurriculars</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#hobbies-and-interests">Hobbies-and-Interests</a></li>
+        <li class="contact-me-nav"><a href="#contact-me">Contact Me</a></li>
       </ul>
+    </nav>
+
+    <div id="home">
+      <div class="i-am-name">
+        <div class="subtitle">Hey! This is</div>
+        <h1 class="main">John Doe</h1>
+      </div>
+
+      <div class="i-am-a">
+        <div class="subtitle">I'm a</div>
+        <h2 class="main">Explorer</h2>
+      </div>
+
+      <div class="resume-btn">VIEW RESUME</div>
     </div>
 
-  </div>
-
-  <div id="extracurriculars" class="section">
-    <h2>My Extracurriculars</h2>
-    <ul>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, alias deleniti! Fugiat nostrum facere libero
-        doloribus possimus iste culpa porro doloremque, eius iusto consequuntur enim ut expedita cumque a ipsum!</li>
-      <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, dolorem! In, necessitatibus. Eaque dolorem
-        sequi veniam minus tenetur hic eligendi autem explicabo! Quas hic excepturi laboriosam voluptatem vero
-        distinctio dignissimos.</li>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dignissimos fuga provident quae at? Placeat
-        ipsa illum ad et alias pariatur quidem quam, laudantium neque repellat facilis labore ipsum? Facilis?</li>
-    </ul>
-  </div>
-
-  <div id="experience" class="section">
-    <h2>My Experience</h2>
-    <div class="experience-entry">
-      <div class="row">
-        <h3>Job Title</h3>
-        <h4>Company</h4>
+    <div id="bio" class="section">
+      <div class="section-header-wrapper">
+        <h2 class="section-header">A Bit About Me</h2>
       </div>
+
+      <div class="bio-container">
+        <img
+          class="profile-image"
+          src="./images/80d364e09d31fcba8af274926d4332ff.jpg"
+          alt=""
+        />
+        <p class="bio-paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+          ullamcorper ut ligula sollicitudin placerat. In molestie condimentum
+          lorem aliquam tempus. Etiam sit amet accumsan est, id lobortis turpis.
+          Integer aliquet mi in consequat convallis. Aenean at risus in tortor
+          dapibus tincidunt at in mauris. Pellentesque ut ipsum non metus
+          pretium volutpat in a quam. Ut sit amet risus dui. Nulla sodales
+          vulputate lacus at vestibulum. Proin sit amet massa ut magna maximus
+          auctor nec id urna. Sed ut finibus lectus. Nullam in lorem at enim
+          elementum auctor.
+        </p>
+      </div>
+    </div>
+
+    <div id="education" class="section">
+      <div class="section-header-wrapper">
+        <h2 class="section-header">What I'm Studying</h2>
+      </div>
+
+      <div class="education-entry">
+        <div class="first-row">
+          <h3 class="school-name">School Name</h3>
+          <h4 class="expected-grad-date">2077</h4>
+        </div>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+            perspiciatis obcaecati delectus itaque enim, sunt eos unde ex quos
+            sit commodi, iste dignissimos autem consequuntur aut corporis quidem
+            qui modi?
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            sed quas repellat facere impedit facilis nobis ducimus assumenda
+            voluptatem, pariatur ab atque aperiam nam aliquam dolorum sint.
+            Ipsum, deleniti cumque?
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="extracurriculars" class="section">
+      <div class="section-header-wrapper">
+        <h2 class="section-header">My Extracurriculars</h2>
+      </div>
+
       <ul>
         <li>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nostrum laudantium quisquam, praesentium nobis
-          laboriosam, magnam, numquam distinctio quibusdam rerum odit aspernatur error modi. A, laboriosam. Aliquid
-          tempore voluptatum ipsam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, alias
+          deleniti! Fugiat nostrum facere libero doloribus possimus iste culpa
+          porro doloremque, eius iusto consequuntur enim ut expedita cumque a
+          ipsum!
         </li>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nostrum error provident eum distinctio,
-          iusto numquam ipsa, earum magni qui laudantium accusantium dolorum voluptates sequi pariatur aliquam
-          voluptatibus obcaecati quaerat.</li>
-        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt minus culpa sit, id quisquam
-          exercitationem delectus sapiente nostrum nulla, mollitia enim fugit dolores nemo dicta maxime quod quam
-          perferendis. Modi?</li>
+        <li>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi,
+          dolorem! In, necessitatibus. Eaque dolorem sequi veniam minus tenetur
+          hic eligendi autem explicabo! Quas hic excepturi laboriosam voluptatem
+          vero distinctio dignissimos.
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+          dignissimos fuga provident quae at? Placeat ipsa illum ad et alias
+          pariatur quidem quam, laudantium neque repellat facilis labore ipsum?
+          Facilis?
+        </li>
       </ul>
     </div>
-  </div>
 
-  <div id="hobbies-and-interests" class="section">
-    <h2>Hobbies and Interests</h2>
-    <ul>
-      <li>Thing 1</li>
-      <li>Thing 2</li>
-      <li>Thing 3</li>
-      <li>Thing 4</li>
-      <li>Thing 5</li>
-      <li>Thing 6</li>
-      <li>Thing 7</li>
-      <li>Thing 8</li>
-    </ul>
-  </div>
+    <div id="experience" class="section">
+      <div class="section-header-wrapper">
+        <h2 class="section-header">My Experience</h2>
+      </div>
 
+      <div class="experience-entry">
+        <div class="row">
+          <h3>Job Title</h3>
+          <h4>Company</h4>
+        </div>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            nostrum laudantium quisquam, praesentium nobis laboriosam, magnam,
+            numquam distinctio quibusdam rerum odit aspernatur error modi. A,
+            laboriosam. Aliquid tempore voluptatum ipsam.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            nostrum error provident eum distinctio, iusto numquam ipsa, earum
+            magni qui laudantium accusantium dolorum voluptates sequi pariatur
+            aliquam voluptatibus obcaecati quaerat.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+            minus culpa sit, id quisquam exercitationem delectus sapiente
+            nostrum nulla, mollitia enim fugit dolores nemo dicta maxime quod
+            quam perferendis. Modi?
+          </li>
+        </ul>
+      </div>
+    </div>
 
-</body>
+    <div id="hobbies-and-interests" class="section">
+      <div class="section-header-wrapper">
+        <h2 class="section-header">Hobbies and Interests</h2>
+      </div>
 
+      <ul>
+        <li>Thing 1</li>
+        <li>Thing 2</li>
+        <li>Thing 3</li>
+        <li>Thing 4</li>
+        <li>Thing 5</li>
+        <li>Thing 6</li>
+        <li>Thing 7</li>
+        <li>Thing 8</li>
+      </ul>
+    </div>
+  </body>
 </html>
