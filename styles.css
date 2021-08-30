@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+.text {
+  font-size: 20px;
+}
+
 /* navigation */
 
 nav {
@@ -121,10 +125,6 @@ h2 {
   height: 300px;
 }
 
-.bio-paragraph {
-  font-size: 20px;
-}
-
 /* education */
 
 .education-entry > .first-row {
@@ -148,6 +148,14 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.job-title {
+  font-size: 40px;
+}
+
+.company {
+  font-size: 30px;
 }
 
 /*  hobbies and interests */
